@@ -7,7 +7,10 @@ gem 'rails', '3.1.0'
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
+# added from 1.4.2 to make errors go away and commented out 2nd line
+# gem install sqlite3 -v '1.3.8'
+gem 'sqlite3', '1.3.8'
+# gem 'sqlite3'
 
 # added from section 1.4.1:
 group :production do
