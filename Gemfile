@@ -9,7 +9,9 @@ gem 'rails', '3.1.0'
 
 # added from 1.4.2 to make errors go away and commented out 2nd line
 # gem install sqlite3 -v '1.3.8'
-gem 'sqlite3', '1.3.8'
+group :development do
+   gem 'sqlite3' #, '1.3.8'
+end
 # gem 'sqlite3'
 
 # added from section 1.4.1:
